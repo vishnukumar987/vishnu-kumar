@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishu Infotech Tuition Admission Form</title>
+    <link rel="stylesheet" href="tution.css">
+</head>
+<body>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+    <div class="container">
+        <input type="hidden" name="access_key" value="49260b93-f0e0-48ca-9dda-7ac56291fa01">
+
+        <h1>Vishu Infotech Tuition Admission Form</h1>
+        <form action="/submit" method="post">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="course">Select Course:</label>
+                <select id="course" name="course" required>
+                    <option value="web-development">Web Development</option>
+                    <option value="data-science">Data Science</option>
+                    <option value="graphic-design">Graphic Design</option>
+                    <option value="digital-marketing">Digital Marketing</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" required>
+                <label for="other">Other</label>
+            </div>
+            
+            <div class="form-group">
+                <label for="photo">Upload Photo:</label>
+                <input type="file" id="photo" name="photo" required>
+            </div>
+            
+            <button type="submit">Submit</button>
+            by vishnu  kumar
+        </form>
+    </div>
+</body>
+</html>
